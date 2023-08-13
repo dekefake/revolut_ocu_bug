@@ -43,4 +43,6 @@ Click the **PLACE ORDER** button.
 
 - All other payment gateways plugins, including Stripe and Mollie ones, have no issues managing orders whose cart has been updated while in checkout page. A definitive fix will probably consist in fetching the cart when the **PLACE ORDER** Woocommerce event is triggered (Not an event triggered by the button click, but rather a little later I suppose)
 
+Read more about One Click Upsells (This is a Shopify app, but we have our own Woocommerce implementation of it) : [https://zipify.com/apps/ocu/](https://zipify.com/apps/ocu/)
+
 If you need to directly contact me, feel free to raise an issue on this repository on Github, along with an email address if needed.
