@@ -22,6 +22,8 @@ Start to fill out checkout billing details. Use one of the valid [revolut develo
 
 Let's simulate a One Click Upsell action : In checkout, before clicking the **PLACE ORDER** button, open the browser JavaScript console and execute this JS code to add another Blue Yarn Wool to the cart : `jQuery.post('/?wc-ajax=add_to_cart',{product_id: 1361, variation_id: 1361}, (res) => console.log('added !', {res}));` 
 
+For your information, `product_id: 1361, variation_id: 1361` are referencing Wordpress Post ID 1361, which is a Blue Yarn Wool Woocommerce product.
+
 Feel free to refresh the cart tab to check if the Blue Yarn Yool is indeed in the cart, but **do not refresh the checkout page**
 
 Click the **PLACE ORDER** button. 
